@@ -26,7 +26,7 @@ public class Utilities {
     // they aren't removed.)
     public String removePairs(String source) {
         // if length is less than 2, there won't be any pairs
-        if (source.length() < 2) {
+        if (source == null || source.length() < 2) {
             return source;
         }
 
